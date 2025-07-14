@@ -32,3 +32,6 @@ print(5 in my_list)  # Check if 5 is in the list
 # pop method
 popped_item = my_list.pop()  # Remove and return the last item
 print(popped_item)  # Display the popped item
+
+# counting the occurence of an element in a list
+print(my_list.count(2))  # Count occurrences of 2 in the list
