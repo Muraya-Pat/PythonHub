@@ -1,4 +1,6 @@
 # Lists in python
+# Lists are mutable sequences, typically used to store collections of homogeneous items.
+# They can contain items of different data types and are defined by square brackets.
 # creating and accessing elements in a list
 my_list = [1, 2, 3, 4, 5]
 print(my_list[0])  # Accessing the first element
