@@ -23,3 +23,5 @@ print(str1.index("World"))  # Get the index of a substring, raises ValueError if
 print(f"Length of string: {len(str1)}")  # Get the length of the string
 #Display index of a character
 print(str1.index("o"))  # Get the index of a character, raises ValueError if not found
+print(str1.isalnum())  # Check if all characters are alphanumeric
+print(str1.isdigit())  # Check if all characters are digits
