@@ -35,3 +35,8 @@ print(popped_item)  # Display the popped item
 
 # counting the occurence of an element in a list
 print(my_list.count(2))  # Count occurrences of 2 in the list
+# calculating the length of a list
+print(len(my_list))  # Get the number of elements in the list
+# clearing a list
+my_list.clear()  # Remove all elements from the list
+print(my_list)  # Display the cleared list
