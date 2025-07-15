@@ -17,7 +17,7 @@ my_dict['country'] = 'USA'  # Adding a new key-value pair
 del my_dict['city']  # Removing the key-value pair with key 'city'
 # iterating through a dictionary
 for key, value in my_dict.items():
-    print(key, value)  # Display each key-value pair
+    print(key, value)  # Display each key-value pair you can also use string literals
 # checking if a key exists in a dictionary
 print('name' in my_dict)  # Check if 'name' is a key in the dictionary
 # getting the keys and values of a dictionary
